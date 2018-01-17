@@ -1,0 +1,97 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            FLEX CONTAINER
+        </div>
+        <div class="col-sm-6">
+            EXPLANATION
+        </div>
+        <div class="col-sm-6 left" style="display:flex;justify-content:flex-end;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    justify-content:flex-end;
+}</pre>
+            </div>
+        </div>
+        <% include "partials/separator.njk" %>
+        <div class="col-sm-6 left" style="display:flex;justify-content:center;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    justify-content:center;
+}</pre>
+            </div>
+        </div>
+        <% include "partials/separator.njk" %>
+        <div class="col-sm-6 left" style="display:flex;justify-content:space-around;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    justify-content:space-around;
+}</pre>
+            </div>
+        </div>
+        <% include "partials/separator.njk" %>
+        <div class="col-sm-6 left" style="display:flex;justify-content:space-between;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    justify-content:space-between;
+}</pre>
+            </div>
+        </div>
+        <% include "partials/separator.njk" %>
+        <div class="col-sm-6 left" style="display:flex;align-items:flex-end;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    align-items:flex-end;
+}</pre>
+            </div>
+        </div>
+        <% include "partials/separator.njk" %>
+        <div class="col-sm-6 left" style="display:flex;align-items:center;
+justify-content:center;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    align-items:center;
+    justify-content:center;
+}</pre>
+            </div>
+        </div>
+        <% include "partials/separator.njk" %>
+        <div class="col-sm-6 left" style="display:flex;align-items:flex-end;
+justify-content:space-around;">
+            <% include "partials/frogs.njk" %>
+        </div>
+        <div class="col-sm-6 right">
+            <div class="explanation">
+<pre>
+.container {
+    align-items:flex-end;
+    justify-content:space-around;
+}</pre>
+            </div>
+        </div>
+    </div>
+</div>

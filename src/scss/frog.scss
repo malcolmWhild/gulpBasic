@@ -1,0 +1,76 @@
+%animal {
+    width: 20em;
+    height: 20em;
+}
+
+.frog {
+    @extend %animal;
+    background-color: green;
+}
+
+.duck {
+    @extend %animal;
+    background-color: brown;
+}
+
+
+//.left,
+.right,
+.froggy,
+.duck,
+.explanation,.fc {
+    display: flex;
+}
+
+//.left,
+.right,
+.froggy,
+.explanation,
+.duck {
+    align-items: center;
+}
+
+.froggy,
+.duck {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+}
+
+.left {
+    height: 100px;
+}
+
+.left {
+    background-color: aquamarine;
+}
+
+.right,
+.explanation {
+    font-weight: bold;
+    background-color: black;
+}
+
+.froggy {
+    background-color: darkgreen;
+}
+
+.duck {
+    background-color: rgb(100, 60, 0);
+}
+
+.froggy,
+.duck {
+    justify-content: center;
+}
+.explanation{
+    color: #FFF;
+    align-items: flex-start;
+    padding-top:5px;
+    min-height: 100px;
+}
+.separator{
+    height:10px;
+    background-color: #FFF;
+}

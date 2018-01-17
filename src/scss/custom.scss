@@ -1,0 +1,49 @@
+@import "variables";
+
+html {
+    font-size:16px;
+}
+a {
+//    color:$primaryColor
+}
+.yelo {
+    height: 5em;
+//    background-color: $primaryColor;
+    padding: 0.5em;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.footer {
+    margin-top: 2em;
+//    border-top: 1px solid $primaryColor;
+    padding-top: 1em;
+}
+
+.footer p {
+    font-size: 0.75em;
+}
+
+.container {
+    margin-top: 2em;
+}
+.myNav {
+    max-width:266px;
+    display: flex;
+    justify-content: space-between;
+}
+
+// @media #{$breakpointMedium} {
+//     .yelo {
+//         margin-bottom: 0;
+//     }
+//     .footer {
+//         margin-top: 1em;
+//     }
+//     @for $i from 1 through 12 {
+//         .column-#{$i} {
+//             width: 100%/$gridColumns*$i;
+//         }
+//     }
+// }

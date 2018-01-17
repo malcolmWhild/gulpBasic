@@ -1,0 +1,28 @@
+<% extends "base.njk" %> 
+
+<% block content %>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <% include "partials/navigation.njk" %>
+            <h1>All content below has been written in separate files in partials</h1>
+            <a href="page2.html">
+                <button type="button" class="btn btn-default">Page2</button>
+            </a>
+        </div>
+    </div>
+</div>
+<% include "partials/cssGrid2.njk" %>
+<% include "partials/cssGrid.njk" %>
+<% include "partials/scssGrid.njk" %>
+<% include "partials/flex.njk" %>
+<% include "partials/4col.njk" %>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            This text should be the default standard 16px.
+        </div>
+    </div>
+</div>
+
+<% endblock %>

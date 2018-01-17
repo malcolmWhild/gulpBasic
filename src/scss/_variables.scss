@@ -1,0 +1,27 @@
+// cssGrid2 grid variables
+$gridColumns:12;
+$gridMaxWidth:65em;
+$grid-columns:12;
+$grid__bp-sm: 576;
+$grid__bp-md: 768;
+$grid__bp-lg: 992;
+$grid__bp-xl: 1200;
+$grid__cols: 12;
+
+$map-grid-props: (
+        '': 0,
+        '-sm': $grid__bp-sm,
+        '-md': $grid__bp-md,
+        '-lg': $grid__bp-lg,
+        '-xl': $grid__bp-xl
+);
+
+
+// cssGrid breakpoints
+// $grid-bp-md:768;
+// $breakpointSmall:"only screen and (min-width:20em)";
+// $breakpointMedium:"only screen and (min-width:30em)";
+
+// $bodyColor:#ffffff;
+// $primaryColor:#203acf;
+// $green:#1e8f49;

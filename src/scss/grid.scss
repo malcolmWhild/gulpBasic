@@ -1,0 +1,52 @@
+@import "variables";
+@import "mixins";
+// *,
+// *:after,
+// *:before {
+//     margin: 0;
+//     padding: 0;
+//     @include border-box;
+// }
+
+// img {
+//     width: auto;
+//     max-width: 100%;
+//     height: auto !important;
+// }
+
+// body {
+//     background-color: $bodyColor;
+// }
+
+// .wrapper {
+//     width: 100%;
+//     margin: 0 auto;
+// }
+
+// .wrapper,
+// .scssRow {
+//     @extend %clearfix;
+// }
+
+// [class*='column-'] {
+//     float: left;
+//     padding: 0.25em;
+//     width: 100%;
+//     min-height: 1px;
+// }
+// .background {
+//     padding:0.25em;
+//     background-color: chocolate;
+// }
+
+// @media #{$breakpointMedium} {
+//     .wrapper {
+//         width: 95%;
+//         max-width: 65em;
+//     }
+//     @for $i from 1 through $gridColumns {
+//         .column-#{$i} {
+//             width: 100%/$gridColumns*$i;
+//         }
+//     }
+// }
